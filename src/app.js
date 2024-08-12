@@ -1,7 +1,6 @@
 import express from "express";
 import rootRouter from "./routes/RootRouter.js";
 import { connect } from "./models/Connect.js";
-import User from "./models/UserModel.js";
 
 const app = express();
 
